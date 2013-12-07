@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conway's Game of War</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://code.createjs.com/createjs-2013.09.25.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body onload="init()">
+	<div id="logo">
+		<img src="assets/ui/WarLogo.png" alt="Logo" height="162" width="342"></img>
+	</div>
+	<div id="background">
+		<img src="assets/game/bg.png" alt="background" height="550px" width="900px"></img>
+	</div>
+	<div id="gameArea">
+		<canvas id="gameCanvas" height="350px" width="700px">
+			Game Canvas
+		</canvas>
+		<div>
+			<div id="helpMe">
+				<a href="javascript:showHelp()"><img src="assets/ui/HelpIcon.gif" alt="Help" height="50" width="50"></img></a>
+			</div>
+			<div id="turnIndicator">
+				<img src="assets/ui/PlayerOneTurn.png" alt="Player One's Turn" height="100" width="300"></img>
+			</div>
+			<div id="nextTurn">
+				<a href="javascript:advance()"><img src="assets/ui/NextIcon.gif" alt="Advance Turn" height="50" width="100"></img></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

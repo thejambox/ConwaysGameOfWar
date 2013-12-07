@@ -1,0 +1,32 @@
+div#logo {
+	position:absolute;
+	left:279px;
+}
+
+div#background {
+	position:absolute;
+	top:172px;
+}
+
+div#gameArea {
+	position:absolute;
+	left:100px;
+	top:272px;
+}
+
+div#helpMe {
+	position:absolute;
+	top:360px;
+}
+
+div#turnIndicator {
+	position:absolute;
+	top:360px;
+	left:200px;
+}
+
+div#nextTurn {
+	position:absolute;
+	top:360px;
+	left:600px;
+}
